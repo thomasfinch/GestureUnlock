@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B93C65A61BA431CE002C76A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B93C65A51BA431CE002C76A1 /* AppDelegate.m */; };
+		B93C65A91BA431CE002C76A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B93C65A81BA431CE002C76A1 /* main.m */; };
+		B93C65AB1BA431CE002C76A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B93C65AA1BA431CE002C76A1 /* Assets.xcassets */; };
+		B93C65AE1BA431CE002C76A1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B93C65AC1BA431CE002C76A1 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B93C65A11BA431CE002C76A1 /* GestureUnlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureUnlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B93C65A41BA431CE002C76A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B93C65A51BA431CE002C76A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B93C65A81BA431CE002C76A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B93C65AA1BA431CE002C76A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B93C65AD1BA431CE002C76A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B93C65AF1BA431CE002C76A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B93C659E1BA431CE002C76A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B93C65981BA431CE002C76A1 = {
+			isa = PBXGroup;
+			children = (
+				B93C65A31BA431CE002C76A1 /* GestureUnlock */,
+				B93C65A21BA431CE002C76A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B93C65A21BA431CE002C76A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B93C65A11BA431CE002C76A1 /* GestureUnlock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B93C65A31BA431CE002C76A1 /* GestureUnlock */ = {
+			isa = PBXGroup;
+			children = (
+				B93C65A41BA431CE002C76A1 /* AppDelegate.h */,
+				B93C65A51BA431CE002C76A1 /* AppDelegate.m */,
+				B93C65AA1BA431CE002C76A1 /* Assets.xcassets */,
+				B93C65AC1BA431CE002C76A1 /* MainMenu.xib */,
+				B93C65AF1BA431CE002C76A1 /* Info.plist */,
+				B93C65A71BA431CE002C76A1 /* Supporting Files */,
+			);
+			path = GestureUnlock;
+			sourceTree = "<group>";
+		};
+		B93C65A71BA431CE002C76A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B93C65A81BA431CE002C76A1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B93C65A01BA431CE002C76A1 /* GestureUnlock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B93C65B21BA431CE002C76A1 /* Build configuration list for PBXNativeTarget "GestureUnlock" */;
+			buildPhases = (
+				B93C659D1BA431CE002C76A1 /* Sources */,
+				B93C659E1BA431CE002C76A1 /* Frameworks */,
+				B93C659F1BA431CE002C76A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GestureUnlock;
+			productName = GestureUnlock;
+			productReference = B93C65A11BA431CE002C76A1 /* GestureUnlock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B93C65991BA431CE002C76A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Thomas Finch";
+				TargetAttributes = {
+					B93C65A01BA431CE002C76A1 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = B93C659C1BA431CE002C76A1 /* Build configuration list for PBXProject "GestureUnlock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B93C65981BA431CE002C76A1;
+			productRefGroup = B93C65A21BA431CE002C76A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B93C65A01BA431CE002C76A1 /* GestureUnlock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B93C659F1BA431CE002C76A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B93C65AB1BA431CE002C76A1 /* Assets.xcassets in Resources */,
+				B93C65AE1BA431CE002C76A1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B93C659D1BA431CE002C76A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B93C65A91BA431CE002C76A1 /* main.m in Sources */,
+				B93C65A61BA431CE002C76A1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B93C65AC1BA431CE002C76A1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B93C65AD1BA431CE002C76A1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B93C65B01BA431CE002C76A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B93C65B11BA431CE002C76A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B93C65B31BA431CE002C76A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GestureUnlock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.thomasfinch.GestureUnlock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B93C65B41BA431CE002C76A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GestureUnlock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.thomasfinch.GestureUnlock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B93C659C1BA431CE002C76A1 /* Build configuration list for PBXProject "GestureUnlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B93C65B01BA431CE002C76A1 /* Debug */,
+				B93C65B11BA431CE002C76A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B93C65B21BA431CE002C76A1 /* Build configuration list for PBXNativeTarget "GestureUnlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B93C65B31BA431CE002C76A1 /* Debug */,
+				B93C65B41BA431CE002C76A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B93C65991BA431CE002C76A1 /* Project object */;
+}
