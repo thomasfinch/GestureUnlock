@@ -7,9 +7,13 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "GestureWindow.h"
+#import "WTMGlyphDetector.h"
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
-
+@interface AppDelegate : NSObject <NSApplicationDelegate, NSMenuDelegate> {
+    NSStatusItem *statusItem;
+    GestureWindow *window;
+}
 
 @end
 
